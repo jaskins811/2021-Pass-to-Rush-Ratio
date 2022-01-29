@@ -1,1 +1,2 @@
 # 2021-Pass-to-Rush-Ratio
+The following code was created using the NflfastR package in R. The code first determines the pass to rush ratio and groups it by team for the regular season. It also filters for plays that occured during a neutral game script, which was defined to be when the win probability of a team was between 20%-80%, and anytime other than the last 2 minutes of a half. Then it uses the ggimage package to create a bar chart to present this data.
